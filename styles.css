@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+a:hover {
+    color:hsl(178, 100%, 50%) !important;
+}
+
+img:hover {
+    background-color:aqua;
+}
+
+body {
+    color: hsl(215, 51%, 70%);
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+}
+
+.wrapper {
+    display: grid;
+    height: 100vh;
+    justify-content: center;
+    align-content: center;
+    grid-area: auto;
+    
+}
+
+.card-body {
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 15px;
+    margin: auto;
+    padding: 1.5rem;
+    width: 19rem;
+    height: 35rem;
+    box-shadow: 4px 4px 25px 15px #031221;
+
+    
+}
+
+h1 {
+    color: white;
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin: 1.25rem 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none !important;
+}
+
+
+.card-image {
+    height: 19rem;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+.main-text {
+    font-size: 18px;
+    font-weight: 200;
+
+}
+
+.card-block {
+    display: flex;
+    justify-content: space-between;
+    margin: 1.25rem 0 0.625rem 0;
+
+}
+
+.eth-span {
+    color: hsl(178, 100%, 50%)
+}
+
+.icon-clock {
+}
+
+.icon-clock {
+    padding-right: 6px;
+}
+
+.icon-eth {
+    padding-right: 6px;
+    ;
+}
+
+.creation-text {
+    display: flex;
+    align-items: center;
+    border-top: 1px solid hsl(215, 32%, 27%);
+    margin-top: 1.5rem;
+    padding-top: 0.75rem;
+
+}
+
+.creator-image {
+    width: 2rem;
+    border: solid 1px white;
+    border-radius: 100%;
+    margin-right: 16px
+}
+
+.attribution {
+    padding: 5rem;
+}
+#name {
+    color: white;
+    place-content: center;
+}
